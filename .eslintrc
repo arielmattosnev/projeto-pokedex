@@ -19,7 +19,7 @@
     ],
     "react/react-in-jsx-scope": "off",
     "comma-dangle": "off",
-    "quotes": ["error", "double"],
+    "quotes": ["error", "double", "marks"],
     "semi": ["error", "always"]
   }
 }

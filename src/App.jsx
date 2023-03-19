@@ -1,9 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Searchbar from "./components/Searchbar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Aqui vai o projeto da pokédex</h1>
+    <div>
+      <Navbar />
+      <Searchbar />
     </div>
   );
 }

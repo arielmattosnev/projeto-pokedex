@@ -1,8 +1,12 @@
 export default function Navbar() {
+  const PokeApiLogoImg =
+    "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png";
+
   return (
     <nav>
-      <p>Aqui vai a barra de navegação</p>
-      <p>paragrafo extra</p>
+      <div>
+        <img src={PokeApiLogoImg} alt="pokeapi-logo" className="navbar-img" />
+      </div>
     </nav>
   );
 }
