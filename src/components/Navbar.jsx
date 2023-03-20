@@ -1,4 +1,4 @@
-export default function Navbar() {
+const Navbar = () => {
   const PokeApiLogoImg =
     "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png";
 
@@ -9,4 +9,6 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;

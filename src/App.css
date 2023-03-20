@@ -45,3 +45,24 @@ nav img {
   color: #ffffff;
   cursor: pointer;
 }
+
+.pokedex-header {
+  font-family: anton, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pokedex-header h1 {
+  color: rgba(255, 183, 0, 0.719);
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: #0000ff93;
+}
+
+.pokedex-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
