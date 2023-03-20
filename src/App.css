@@ -68,9 +68,13 @@ nav img {
 }
 
 .pokemon-card {
+  font-family: Roboto, sans-serif;
+  background-color: #d3d3d3;
   display: flex;
-  box-shadow: 4px 4px 4px (0,0,0,0.25);
-  border-radius: 3px;
+  box-shadow: 3px solid black;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 6px;
 }
 
 .pokemon-image {
@@ -92,9 +96,40 @@ nav img {
 }
 
 .card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.card-top h3 {
+  text-transform: uppercase;
 }
 
 .card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.pokemon-types {
+  display: flex;
+  flex-direction: row;
+}
+
+.pokemon-type-text {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.pokemon-heart-btn {
+  border-style: none;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.pokemon-heart-btn:hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
 }

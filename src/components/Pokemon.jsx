@@ -3,7 +3,7 @@ const Pokemon = ({ pokemon }) => {
     console.log("pokemon favoritado viun");
   };
 
-  const heart = "🧡";
+  const heart = "❤️";
 
   return (
     <div className="pokemon-card">
@@ -27,6 +27,7 @@ const Pokemon = ({ pokemon }) => {
               );
             })}
           </div>
+
           <button className="pokemon-heart-btn" onClick={onHeartClick}>
             {heart}
           </button>
