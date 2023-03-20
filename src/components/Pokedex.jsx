@@ -1,3 +1,5 @@
+import Pokemon from "./Pokemon";
+
 const Pokedex = ({ pokemons, loading }) => {
   return (
     <div>
@@ -9,15 +11,10 @@ const Pokedex = ({ pokemons, loading }) => {
         <div>Pokédex carregando...</div>
       ) : (
         <div className="pokedex-grid">
-          {pokemons && pokemons.map((pokemon, index) => {
-            return (
-              <div>
-                <div>#{pokemon.id}</div>
-                <div>{pokemon.name}</div>
-                <img src={pokemon.url} alt={pokemon.name} />
-              </div>
-            );
-          })}
+          {pokemons &&
+            pokemons.map((pokemon, index) => {
+              return <Pokemon key={index} pokemon={pokemon} />;
+            })}
         </div>
       )}
     </div>
