@@ -16,6 +16,10 @@ nav img {
   width: 160px;
 }
 
+.nav-content {
+  margin: 0 33px;
+}
+
 .searchbar-container {
   display: flex;
   align-items: center;
